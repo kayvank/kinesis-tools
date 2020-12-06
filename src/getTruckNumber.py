@@ -10,7 +10,7 @@ from boto3.dynamodb.conditions import Attr
 
 def main():
     dynamodb = boto3.resource('dynamodb')
-    table = dynamodb.Table('mpgm.core')
+    table = dynamodb.Table('core')
     response = table.scan(
         FilterExpression=
         Attr("type").eq("TRK") and

@@ -11,7 +11,7 @@ import time
 import json
 
 # The kinesis stream I defined in asw console
-stream_name = 'mpgm-trip-v1'
+stream_name = 'trip-stream-v1'
 
 k_client = boto3.client(
     'kinesis',

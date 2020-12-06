@@ -15,7 +15,7 @@ Instructions to use the tools
 
 ``` sh
 git clone git@github.com:XStreamTrucking/mpgm-kinesis-tools.git
-cd mpgm-kinesis-tools
+cd kinesis-tools
 python -m venv ./env
 source ./env/bin/activate
 pip install -r ./requirements.txt
