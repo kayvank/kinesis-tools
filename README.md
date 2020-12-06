@@ -14,7 +14,7 @@ Instructions to use the tools
 ### Create your environmnet
 
 ``` sh
-git clone git@github.com:XStreamTrucking/mpgm-kinesis-tools.git
+git clone git@github.com:kayvank/kinesis-tools.git
 cd kinesis-tools
 python -m venv ./env
 source ./env/bin/activate
